@@ -6,7 +6,9 @@
     "start": "node index.js"
   },
   "dependencies": {
+    "axios": "latest",
     "dotenv": "latest",
+    "throttle": "latest",
     "ws": "latest"
   }
 }
