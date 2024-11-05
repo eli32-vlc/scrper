@@ -8,7 +8,8 @@
   "dependencies": {
     "axios": "latest",
     "dotenv": "latest",
-    "throttle": "latest",
+    "stream-throttle": "latest",
+    "node-cache": "latest",
     "ws": "latest"
   }
 }
