@@ -10,5 +10,11 @@ RUN curl -sL https://deb.nodesource.com/setup_12.x | bash && \
 COPY . .
 RUN npm install
 
+RUN echo "secret is: $DISCORD_WEBHOOK_URL"
+RUN echo "secret is: $PORT"
+RUN echo "secret is: $REFRESH_UUID_INTERVAL"
+RUN echo "secret is: $SPEED_LIMIT_MBPS"
+RUN echo "secret is: $UUID_LIST_URL"
+
 RUN BACKGROUND node index.js
 EXPOSE WEBSITE http://localhost:8000
